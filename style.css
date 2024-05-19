@@ -118,25 +118,27 @@ a {
 
 .s2_container {
   display: flex;
-  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .s2_container--box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .s2_container--box p {
-  width: 100px;
+  font-size: 18px;
+  color: #1F2937;
+  width: 100%;
   padding-top: 5px;
   text-align: center;
 }
 
 .empty-box {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 2px solid #3882F6;
   border-radius: 8px;
 }
