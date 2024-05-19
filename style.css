@@ -8,24 +8,22 @@ body {
  font-family: "Roboto", sans-serif;
  margin: 0 auto;
  padding: 0;
- max-width: 700px;
  display: flex;
  flex-direction: column;
- /* Hiljem muudan */
 } 
 
 .btn {
   background-color: #3882F6;
   border-radius: 5px;
   color: white;
-  padding: 7px 25px;
+  padding: 8px 30px;
   cursor: pointer;
 }
 
 .section-1 {
   background-color: #1F2937;
   color: white;
-  padding: 5px 70px 70px;
+  padding: 10px 110px 110px;
 }
 
 /* Navigation */
@@ -37,13 +35,15 @@ body {
 }
 
 .header_logo {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500;
+  color: #F9FAF8;
 }
 
 .header_nav {
   display: flex;
   list-style-type: none;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -51,7 +51,7 @@ body {
 a {
   text-decoration: none;
   color: #E5E7EB;
-  font-size: 12px;
+  font-size: 18px;
   margin-left: 10px;
   font-weight: 300;
 }
@@ -71,12 +71,13 @@ a {
 
 .header_section--left h1 {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 48px;
   color: #F9FAF8;
   margin-bottom: 3px;
 }
 
 .header_section--left p {
+  font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 5px;
 }
@@ -165,9 +166,26 @@ a {
 
 .s4_container {
   background-color: #3882F6;
-  color: 
+  margin: 50px 70px;
+  padding: 20px 50px;
 }
 
+.s4_action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s4_action--text h3 {
+  color: #F9FAF8;
+}
+
+.s4_action--text p {
+  color: #E5E7EB;
+}
+
+.s4_action button {
+  border: 1px solid #eee;
+}
 
 p {
   font-size: 11px;
