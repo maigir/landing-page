@@ -94,22 +94,21 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .header_section--right img {
   width: 100%;
   object-fit: contain;
-  
 }
 
 /* Section-2: 4 pictures */ 
 
 .section-2 h2 {
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 900;
+  color: #1F2937;
   text-align: center;
-  padding: 25px;
+  padding: 30px;
 }
 
 .section-2 {
