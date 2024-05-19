@@ -77,7 +77,6 @@ a {
 }
 
 .header_section--left p {
-  font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 10px;
 }
@@ -129,7 +128,6 @@ a {
 }
 
 .s2_container--box p {
-  font-size: 18px;
   color: #1F2937;
   width: 100%;
   padding-top: 5px;
@@ -170,8 +168,9 @@ a {
 
 .s4_container {
   background-color: #3882F6;
-  margin: 50px 70px;
-  padding: 20px 50px;
+  border-radius: 4px;
+  margin: 60px 130px;
+  padding: 30px 50px;
 }
 
 .s4_action {
@@ -191,8 +190,14 @@ a {
   border: 1px solid #eee;
 }
 
+.s4_action--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
-  font-size: 11px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.3;
 }
